@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="styles.css">
+  
+    <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+        <a href="/">Vinicius G.</a>
+    </div>
+
+    <div class="right">
+        <a href="https://github.com/ViniciusG03" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i><span></span> Github</a>
+        
+        <a href="https://www.linkedin.com/in/vinicius-gomes-a10933287/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i><span></span> LinkedIn</a>
+
+        <a href="mailto:viniciusgomes.33mes@gmail.com"><i class="fa-solid fa-envelope"></i><span></span> Email</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Menosprezo</h2>
+        <p>Sou um apaixonado desenvolvedor fullstack com experiência abrangente em front-end e back-end. Minha abordagem centrada no usuário, combinada com sólidos conhecimentos em tecnologias modernas, me permite criar soluções robustas e intuitivas. Estou sempre buscando inovação e aprimoramento contínuo para oferecer produtos que atendam às necessidades do cliente e superem expectativas.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Projetos</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/menosprezo3.jpg" alt="menosprezo_imagem">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Trago uma expertise sólida em JavaScript, HTML, CSS e Java. Com uma abordagem Fullstack, sou capaz de criar experiências interativas e funcionais tanto no front-end quanto no back-end. Minha dedicação à qualidade do código e ao design responsivo reflete meu compromisso em oferecer soluções tecnológicas excepcionais.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo"><span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo"><span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo"><span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo"><span>Node.js</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/java1.png" alt="java logo"><span>Java</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Projetos</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/menosprezo2.jpg">
+          <p>Lari Bot</p>
+          <p>Um ChatBot.</p>
+        </div>
+
+        <div class="text">
+          A Lari é um ChatBot que ainda está em desenvolvimento, ela está sendo feita na linguagem de programação JavaScript, utilizando o Node.js, é um bot para o discord, utiliza a API do ChatGPT para o processamento dos prompts, também terá outras funções para moderação de servidores.
+        </div>
+
+        <div class="repo">
+          <a href="https://github.com/ViniciusG03/LariBot" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i><span></span> Repositório</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Se preferir, sinta-se à vontade para entrar em contato diretamente através do meu website. Basta preencher os campos abaixo, e eu responderei o mais rápido possível. Estou ansioso para iniciar essa conversa e explorar como posso contribuir para seus projetos ou responder suas dúvidas. Obrigado por visitar o meu site!
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
