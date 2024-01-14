@@ -121,17 +121,20 @@
           Se preferir, sinta-se à vontade para entrar em contato diretamente através do meu website. Basta preencher os campos abaixo, e eu responderei o mais rápido possível. Estou ansioso para iniciar essa conversa e explorar como posso contribuir para seus projetos ou responder suas dúvidas. Obrigado por visitar o meu site!
         </div>
 
-        <form>
+        <form action="https://api.staticforms.xyz/submit" method="post">
           <label for="name">Name</label>
-          <input type="text" id="name">
+          <input type="text" id="name" placeholder="Your name" autocomplete="off">
 
           <label for="email">Email</label>
-          <input type="email" id="email">
+          <input type="email" id="email" placeholder="Your email" autocomplete="off">
 
           <label for="message">Message</label>
           <textarea id="message" cols="30" rows="10"></textarea>
 
           <button type="submit">Send Message</button>
+
+          <input type="hidden" name="acessKey" value ="f175a016-b6b1-4ede-8dcd-af1200e727c0">
+          <input type="hidden" name="redirectTo" value="https://menosprezo-portfolio.netlify.app/">
         </form>
       </div>
     </section>
